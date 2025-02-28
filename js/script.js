@@ -119,11 +119,9 @@ function updateCartDisplay() {
         <td class="py-2 px-4">$${item.price}</td>
         `;
         cartContainer.appendChild(row);
-           // Add item price to total
-        //    totalPrice += item.price;
+          
     });
-    // Update total price section
-    // totalPriceContainer.innerText = `$${totalPrice}`;
+    
 
     // Show Modal
     document.getElementById("cart-modal").classList.remove("hidden");
